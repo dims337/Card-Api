@@ -1,0 +1,50 @@
+.deckcard{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(10px, 20px) rotate(20deg);
+}
+
+
+.decklist{
+    margin-top: 80px;
+}
+
+
+
+.root{
+    margin:auto;
+    text-align: center;
+    color: cornsilk;
+}
+
+
+
+body{
+    background-color: black;
+}
+
+.title{
+    color: azure;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.deck-btn{
+    background:none;
+    border:2px solid;
+    outline: none;
+    font:inherit;
+    margin:0.5em;
+    padding: 1em 2em;
+    color: #009688;
+    transition: 0.25s;
+}
+
+.deck-btn:hover{
+    border-color: #4caf50;
+    color: white;
+    box-shadow: inset 0 0 0 2em #4caf50;
+}
